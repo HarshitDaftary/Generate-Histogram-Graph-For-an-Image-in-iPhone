@@ -3,7 +3,7 @@ Generate-Histogram-Graph-For-an-Image-in-iPhone
 
 Generate Histogram Graph of An Image in iPhone
 
-Hi I have created this repository with a veiw to help iOS developers to generate Histogram from Image.
+Hi I have created this repository with a view to help iOS developers to generate Histogram from Image.
 
 You need to change the viewDidLoad method to change image.
 
