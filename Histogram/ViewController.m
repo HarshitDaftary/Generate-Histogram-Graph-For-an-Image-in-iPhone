@@ -24,8 +24,6 @@ float fltR[255],fltG[255],fltB[255];
 	// Do any additional setup after loading the view, typically from a nib.
         
     arrAllPoints  = [[NSMutableArray alloc] init];
-    arrGreenPoints = [[NSMutableArray alloc] init];
-    arrBluePoints  = [[NSMutableArray alloc] init];
     
     NSLog(@"Reading....");
     
