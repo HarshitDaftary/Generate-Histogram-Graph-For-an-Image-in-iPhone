@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE00910B1632D226006A51E2 /* ClsDrawPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FE00910A1632D226006A51E2 /* ClsDrawPoint.m */; };
+		FE00910C1632D463006A51E2 /* ClsDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0091061632CDBA006A51E2 /* ClsDraw.m */; };
+		FE06F5F11637EADA007B9321 /* happiness2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FE06F5EF1637EADA007B9321 /* happiness2.jpeg */; };
+		FE06F5F21637EADA007B9321 /* happiness1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE06F5F01637EADA007B9321 /* happiness1.png */; };
+		FE0FF7421636A38A00F452C0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0FF7411636A38A00F452C0 /* QuartzCore.framework */; };
+		FE11CF7516395BEC001CC536 /* yamaha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE11CF7416395BEC001CC536 /* yamaha.jpg */; };
+		FE11CF781639635B001CC536 /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11CF771639635B001CC536 /* ipad.png */; };
+		FE11CF7A163963D9001CC536 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = FE11CF79163963D9001CC536 /* home.png */; };
+		FE9532D71630387E00BB0AA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9532D61630387E00BB0AA1 /* UIKit.framework */; };
+		FE9532D91630387E00BB0AA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9532D81630387E00BB0AA1 /* Foundation.framework */; };
+		FE9532DB1630387E00BB0AA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9532DA1630387E00BB0AA1 /* CoreGraphics.framework */; };
+		FE9532E11630387E00BB0AA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE9532DF1630387E00BB0AA1 /* InfoPlist.strings */; };
+		FE9532E31630387E00BB0AA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9532E21630387E00BB0AA1 /* main.m */; };
+		FE9532E71630387E00BB0AA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9532E61630387E00BB0AA1 /* AppDelegate.m */; };
+		FE9532E91630387E00BB0AA1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9532E81630387E00BB0AA1 /* Default.png */; };
+		FE9532EB1630387E00BB0AA1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9532EA1630387E00BB0AA1 /* Default@2x.png */; };
+		FE9532ED1630387E00BB0AA1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9532EC1630387E00BB0AA1 /* Default-568h@2x.png */; };
+		FE9532F01630387E00BB0AA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9532EF1630387E00BB0AA1 /* ViewController.m */; };
+		FE9532F31630387E00BB0AA1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE9532F11630387E00BB0AA1 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE0091051632CDBA006A51E2 /* ClsDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClsDraw.h; sourceTree = "<group>"; };
+		FE0091061632CDBA006A51E2 /* ClsDraw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClsDraw.m; sourceTree = "<group>"; };
+		FE0091091632D226006A51E2 /* ClsDrawPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClsDrawPoint.h; sourceTree = "<group>"; };
+		FE00910A1632D226006A51E2 /* ClsDrawPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClsDrawPoint.m; sourceTree = "<group>"; };
+		FE06F5EF1637EADA007B9321 /* happiness2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happiness2.jpeg; sourceTree = "<group>"; };
+		FE06F5F01637EADA007B9321 /* happiness1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happiness1.png; sourceTree = "<group>"; };
+		FE0FF7411636A38A00F452C0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FE11CF7416395BEC001CC536 /* yamaha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yamaha.jpg; sourceTree = "<group>"; };
+		FE11CF771639635B001CC536 /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
+		FE11CF79163963D9001CC536 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		FE9532D21630387E00BB0AA1 /* Histogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Histogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9532D61630387E00BB0AA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE9532D81630387E00BB0AA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE9532DA1630387E00BB0AA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE9532DE1630387E00BB0AA1 /* Histogram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Histogram-Info.plist"; sourceTree = "<group>"; };
+		FE9532E01630387E00BB0AA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE9532E21630387E00BB0AA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE9532E41630387E00BB0AA1 /* Histogram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Histogram-Prefix.pch"; sourceTree = "<group>"; };
+		FE9532E51630387E00BB0AA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE9532E61630387E00BB0AA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE9532E81630387E00BB0AA1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FE9532EA1630387E00BB0AA1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FE9532EC1630387E00BB0AA1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FE9532EE1630387E00BB0AA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE9532EF1630387E00BB0AA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE9532F21630387E00BB0AA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE9532CF1630387E00BB0AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0FF7421636A38A00F452C0 /* QuartzCore.framework in Frameworks */,
+				FE9532D71630387E00BB0AA1 /* UIKit.framework in Frameworks */,
+				FE9532D91630387E00BB0AA1 /* Foundation.framework in Frameworks */,
+				FE9532DB1630387E00BB0AA1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE9532C71630387D00BB0AA1 = {
+			isa = PBXGroup;
+			children = (
+				FE06F5EF1637EADA007B9321 /* happiness2.jpeg */,
+				FE11CF7416395BEC001CC536 /* yamaha.jpg */,
+				FE11CF771639635B001CC536 /* ipad.png */,
+				FE11CF79163963D9001CC536 /* home.png */,
+				FE06F5F01637EADA007B9321 /* happiness1.png */,
+				FE0FF7411636A38A00F452C0 /* QuartzCore.framework */,
+				FE9532DC1630387E00BB0AA1 /* Histogram */,
+				FE9532D51630387E00BB0AA1 /* Frameworks */,
+				FE9532D31630387E00BB0AA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE9532D31630387E00BB0AA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE9532D21630387E00BB0AA1 /* Histogram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE9532D51630387E00BB0AA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE9532D61630387E00BB0AA1 /* UIKit.framework */,
+				FE9532D81630387E00BB0AA1 /* Foundation.framework */,
+				FE9532DA1630387E00BB0AA1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE9532DC1630387E00BB0AA1 /* Histogram */ = {
+			isa = PBXGroup;
+			children = (
+				FE0091051632CDBA006A51E2 /* ClsDraw.h */,
+				FE0091061632CDBA006A51E2 /* ClsDraw.m */,
+				FE9532E51630387E00BB0AA1 /* AppDelegate.h */,
+				FE9532E61630387E00BB0AA1 /* AppDelegate.m */,
+				FE9532EE1630387E00BB0AA1 /* ViewController.h */,
+				FE9532EF1630387E00BB0AA1 /* ViewController.m */,
+				FE9532F11630387E00BB0AA1 /* ViewController.xib */,
+				FE9532DD1630387E00BB0AA1 /* Supporting Files */,
+				FE0091091632D226006A51E2 /* ClsDrawPoint.h */,
+				FE00910A1632D226006A51E2 /* ClsDrawPoint.m */,
+			);
+			path = Histogram;
+			sourceTree = "<group>";
+		};
+		FE9532DD1630387E00BB0AA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE9532DE1630387E00BB0AA1 /* Histogram-Info.plist */,
+				FE9532DF1630387E00BB0AA1 /* InfoPlist.strings */,
+				FE9532E21630387E00BB0AA1 /* main.m */,
+				FE9532E41630387E00BB0AA1 /* Histogram-Prefix.pch */,
+				FE9532E81630387E00BB0AA1 /* Default.png */,
+				FE9532EA1630387E00BB0AA1 /* Default@2x.png */,
+				FE9532EC1630387E00BB0AA1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE9532D11630387E00BB0AA1 /* Histogram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9532F61630387E00BB0AA1 /* Build configuration list for PBXNativeTarget "Histogram" */;
+			buildPhases = (
+				FE9532CE1630387E00BB0AA1 /* Sources */,
+				FE9532CF1630387E00BB0AA1 /* Frameworks */,
+				FE9532D01630387E00BB0AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Histogram;
+			productName = Histogram;
+			productReference = FE9532D21630387E00BB0AA1 /* Histogram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE9532C91630387E00BB0AA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Hadley;
+			};
+			buildConfigurationList = FE9532CC1630387E00BB0AA1 /* Build configuration list for PBXProject "Histogram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE9532C71630387D00BB0AA1;
+			productRefGroup = FE9532D31630387E00BB0AA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE9532D11630387E00BB0AA1 /* Histogram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE9532D01630387E00BB0AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9532E11630387E00BB0AA1 /* InfoPlist.strings in Resources */,
+				FE9532E91630387E00BB0AA1 /* Default.png in Resources */,
+				FE9532EB1630387E00BB0AA1 /* Default@2x.png in Resources */,
+				FE9532ED1630387E00BB0AA1 /* Default-568h@2x.png in Resources */,
+				FE9532F31630387E00BB0AA1 /* ViewController.xib in Resources */,
+				FE06F5F11637EADA007B9321 /* happiness2.jpeg in Resources */,
+				FE06F5F21637EADA007B9321 /* happiness1.png in Resources */,
+				FE11CF7516395BEC001CC536 /* yamaha.jpg in Resources */,
+				FE11CF781639635B001CC536 /* ipad.png in Resources */,
+				FE11CF7A163963D9001CC536 /* home.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE9532CE1630387E00BB0AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE00910C1632D463006A51E2 /* ClsDraw.m in Sources */,
+				FE9532E31630387E00BB0AA1 /* main.m in Sources */,
+				FE9532E71630387E00BB0AA1 /* AppDelegate.m in Sources */,
+				FE9532F01630387E00BB0AA1 /* ViewController.m in Sources */,
+				FE00910B1632D226006A51E2 /* ClsDrawPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE9532DF1630387E00BB0AA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE9532E01630387E00BB0AA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE9532F11630387E00BB0AA1 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE9532F21630387E00BB0AA1 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE9532F41630387E00BB0AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE9532F51630387E00BB0AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE9532F71630387E00BB0AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Histogram/Histogram-Prefix.pch";
+				INFOPLIST_FILE = "Histogram/Histogram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE9532F81630387E00BB0AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Histogram/Histogram-Prefix.pch";
+				INFOPLIST_FILE = "Histogram/Histogram-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE9532CC1630387E00BB0AA1 /* Build configuration list for PBXProject "Histogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9532F41630387E00BB0AA1 /* Debug */,
+				FE9532F51630387E00BB0AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9532F61630387E00BB0AA1 /* Build configuration list for PBXNativeTarget "Histogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE9532F71630387E00BB0AA1 /* Debug */,
+				FE9532F81630387E00BB0AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE9532C91630387E00BB0AA1 /* Project object */;
+}
