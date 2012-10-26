@@ -14,8 +14,6 @@
 @interface ViewController : UIViewController
 {
     NSMutableArray *arrAllPoints;
-    NSMutableArray *arrGreenPoints;
-    NSMutableArray *arrBluePoints;
 
     IBOutlet ClsDraw *redGraphView;
     IBOutlet ClsDraw *blueGraphView;
